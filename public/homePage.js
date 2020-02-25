@@ -25,7 +25,7 @@ const showProfile = (responsedata) => {
       }
     }
 
-showProfile();    
+showProfile();  
 
 const ratesBoard = new RatesBoard();
 const runRate = () => ApiConnector.getStocks((response) => 
@@ -52,7 +52,7 @@ moneyManager.addMoneyCallback = (data) =>
                 else 
                     {                                                 
                         moneyManager.setMessage(false,'Баланс успешно пополнен');
-                        showProfile();
+                        showProfile(response.data);
                     }
             })            
     };
@@ -67,7 +67,7 @@ moneyManager.conversionMoneyCallback = (data) =>
                 else 
                     {                                                               
                         moneyManager.setMessage(false,'Конвертация успешно произведена');
-                        showProfile();
+                        showProfile(response.data);
                     }                                                                              
             });                                                                            
     }
@@ -82,7 +82,7 @@ moneyManager.sendMoneyCallback  = (data) =>
                     }
                 else 
                     {
-                        showProfile();
+                        showProfile(response.data);
                         moneyManager.setMessage(false,'Перевод успешно произведен');
                     }                                                                              
             });                                                                            

@@ -141,7 +141,7 @@
       "balance": {
         "RUB": 142792.50520471897,
         "USD": 2191.070966457649,
-        "EUR": 8003,
+        "EUR": 15964.149590000796,
         "NTC": 22
       }
     },
@@ -150,6 +150,18 @@
       "login": "tt",
       "password": "tt",
       "id": "txj7o6zok708u68n",
+      "balance": {
+        "RUB": 0,
+        "USD": 0,
+        "EUR": 0,
+        "NTC": 0
+      }
+    },
+    {
+      "created_at": "2020-02-25T16:23:13.015Z",
+      "login": "qq",
+      "password": "qq",
+      "id": "txj7o3ikk723msmx",
       "balance": {
         "RUB": 0,
         "USD": 0,
@@ -171,6 +183,7 @@
       "2": "Важный клиент"
     },
     "txj7o6jkk708tb62": {},
-    "txj7oz8k6qw0byu": {}
+    "txj7oz8k6qw0byu": {},
+    "txj7o3ikk723msmx": {}
   }
 }
